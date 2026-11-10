@@ -36,9 +36,14 @@
 .slot.decor img[src="img/rosendo.png"] {
     transform: translate(-50%, -50%) scale(1.3);
 }
-
+.slot.decor img[src="img/parfum_accueil.jpg"] {
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%) scale(0.5);
+}
 .slot.decor {
     position: relative;
     overflow: visible;
 }
+
 .slot.decor:not(:has(img))::after{content:"Dépose le flacon détouré\A " attr(data-file);white-space:pre;position:relative;z-index:1;align-self:center;background:rgba(250,243,230,.8);padding:.6rem 1rem}
